@@ -27,11 +27,16 @@ $(document).on('ready', function() {
 
 	// other logo click
     $('#altlogo').click(function(){
-      window.location.href="http://www.irhsdeca.xyz";
+      window.location.href="http://www.irhsdeca.me";
     });
 
 	// redirect to our facebook group
     $('#fbimg').click(function(){
-      window.location.href="https://www.facebook.com/groups/565646830308629/";
+      window.location.href="https://www.facebook.com/groups/339312426603106/";
     });
+	
+	$('#insimg').click(function(){
+      window.location.href="https://www.instagram.com/irhsdeca/";
+    });
+
 });
