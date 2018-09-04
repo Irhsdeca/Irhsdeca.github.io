@@ -19,21 +19,6 @@
 
   <div id="wrapper">
 
- <!-- Mobile menu --> 
-  <div id="mobile_menu">
-    <img id="menu-logo" src="img/logo2.png" height="40" align="left">
-    <img id="menu-bars" src="img/menu_bars.png" height="32" align="right">
-  </div>
-
-
- <!-- Mobile dropdown --> 
-  <ul id="mobile_dropdown" style="display: none;">
-      <li><a href='index.html'><span>Home</span></a></li>
-      <li class="active"><a href='about.html'><span>About DECA</span></a></li>
-      <li><a href='events.html'><span>Events</span></a></li>
-      <li><a href='dashboard.html'><span>Dashboard</span></a></li>
-      <li><a href='announcements.html'><span>Announcements</span></a></li>
-      <li><a href='dates.html'><span>Schedules</span></a></li>
 
 <!-- Desktop menu -->
   <div id='cssmenu'>
@@ -45,16 +30,6 @@
           <li><a href='announcements.html'><span>Announcements</span></a></li>
           <li><a href='dates.html'><span>Schedules</span></a></li>
 
-	<!-- If user is logged in, show corresponding menus -->
-          <?php if( !isset($_SESSION['user']) ) { ?>
-             <li><a href='register.php'><span>Register</span></a></li>
-             <li class='last'><a href='login.php'><span>Login</span></a></li>
-             <?php } else { ?>
-             <li><a href='exams.php'><span>Exams</span></a></li>
-               <li class='last'><a href='logout.php?logout'><span>Logout</span></a></li>
-            <?php
-          }
-          ?>
       </ul>
   </div>
 

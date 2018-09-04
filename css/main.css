@@ -236,7 +236,7 @@ a, #fbimg, #altlogo, #allTypes, #clusterClicked, #type, #cluster, .eventTrigger,
 
 @media screen and (max-width: 1199px) {
 	#cssmenu {
-		display: none !important;
+		display: none;
 	}
 
 	#submit_ann{
