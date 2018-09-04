@@ -5,7 +5,7 @@
 $(document).on('ready', function() {
 	// redirect to home
     $('#menu-logo').on('click', function(){
-      window.location.href="http://www.irhsdeca.xyz";
+      window.location.href="http://www.ridgedeca.me";
     });
 
 	// mobile dropdown menu funcitonality
@@ -27,7 +27,7 @@ $(document).on('ready', function() {
 
 	// other logo click
     $('#altlogo').click(function(){
-      window.location.href="http://www.irhsdeca.me";
+      window.location.href="http://www.ridgedeca.me";
     });
 
 	// redirect to our facebook group
