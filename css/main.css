@@ -23,15 +23,14 @@
 	}
 
 	#fbimg {
-		margin-right: 100px;
 		margin-top: 10px;
 		width: 45px;
 	}
-		#insimg {
-		margin-right: 100px;
-		margin-top: 10px;
-		width: 45px;
-	}
+#insimg {
+	margin-right: 100px;
+	margin-top: 10px;
+	width: 45px;
+}
 
 	#exam_scores{
 		margin-top: 20px;
